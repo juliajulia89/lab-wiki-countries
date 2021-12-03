@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function NavBar() {
   return (
     <div class="navbar navbar-dark bg-primary mb-3">
       <Link to="/">
@@ -11,4 +11,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
